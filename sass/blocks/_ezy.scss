@@ -1,0 +1,205 @@
+.ezy__part{
+    width: 100%;
+    margin-top: 100px;
+
+}
+
+.ezy__body{
+    display: flex;
+    flex-direction: column;
+    
+    .ezy__title{
+        display: flex;
+        justify-content: space-around;
+        height: 290px;
+        background: rgb(247,238,236);
+
+        .wheels{
+            display: flex;
+            align-items: baseline;
+        }
+
+        .ezy__text{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 30px;
+
+            .heading{
+                width: 500px;
+                font-family: Roboto;
+                font-size: 50px;
+                font-weight: 700;
+                line-height: 50px;
+                text-align: center;
+                color: rgba(24, 167, 167, 1);
+
+            }
+
+            .ezy__btn{
+                background: rgba(24, 167, 167, 1);
+                border-radius: 3px;
+                border: none;
+                padding: 12px 118px;
+                font-family: Roboto;
+                font-size: 16px;
+                font-weight: 700;
+                line-height: 18.75px;
+                letter-spacing: 0.02em;
+                color: rgb(255,255,255);
+                transition: .7s;
+
+                &:hover{
+                    cursor: pointer;
+                    background: green;
+                }
+
+            }            
+        }
+        
+        .transmission{
+            display: flex;
+            align-items: end;
+        }
+    }
+
+    .ezy__img{
+        display: flex;
+        justify-content: center;
+        object-fit: cover;
+        
+    }
+}
+
+@media (max-width:1000px) {
+    .ezy__body{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        
+        .ezy__title{
+            display: flex;
+            justify-content: space-around;
+            height: 290px;
+            background: rgb(247,238,236);
+    
+            .wheels{
+                display: none;
+                align-items: baseline;
+            }
+    
+            .ezy__text{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                gap: 20px;
+    
+                .heading{
+                    width: 500px;
+                    font-family: Roboto;
+                    font-size: 50px;
+                    font-weight: 700;
+                    line-height: 50px;
+                    text-align: center;
+                    color: rgba(24, 167, 167, 1);
+    
+                }
+    
+                .ezy__btn{
+                    background: rgba(24, 167, 167, 1);
+                    border-radius: 3px;
+                    border: none;
+                    padding: 12px 118px;
+                    font-family: Roboto;
+                    font-size: 16px;
+                    font-weight: 700;
+                    line-height: 18.75px;
+                    letter-spacing: 0.02em;
+                    color: rgb(255,255,255);
+                    transition: .7s;
+    
+                    &:hover{
+                        cursor: pointer;
+                        background: green;
+                    }
+    
+                }            
+            }
+            
+            .transmission{
+                display: none;
+                align-items: end;
+            }
+        }
+    }
+    
+}
+@media (max-width:500px) {
+    .ezy__body{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        
+        .ezy__title{
+            display: flex;
+            justify-content: space-around;
+            height: 290px;
+            background: rgb(247,238,236);
+    
+            .wheels{
+                display: none;
+                align-items: baseline;
+            }
+    
+            .ezy__text{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                gap: 20px;
+    
+                .heading{
+                    width: 90%;
+                    font-family: Roboto;
+                    font-size: 28px;
+                    font-weight: 700;
+                    line-height: 50px;
+                    text-align: center;
+                    color: rgba(24, 167, 167, 1);
+    
+                }
+    
+                .ezy__btn{
+                    background: rgba(24, 167, 167, 1);
+                    border-radius: 3px;
+                    border: none;
+                    padding: 12px 20px;
+                    font-family: Roboto;
+                    font-size: 12px;
+                    font-weight: 700;
+                    line-height: 18.75px;
+                    letter-spacing: 0.02em;
+                    color: rgb(255,255,255);
+                    transition: .7s;
+    
+                    &:hover{
+                        cursor: pointer;
+                        background: green;
+                    }
+    
+                }            
+            }
+            
+            .transmission{
+                display: none;
+                align-items: end;
+            }
+        }
+    }
+    
+}
+
+
+
